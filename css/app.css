@@ -8,6 +8,7 @@ Navigation
 }
 .site-logo{
 	color: white;
+	line-height: 73px;
 }
 
 /***************************************************
@@ -20,11 +21,28 @@ General
 }
 .nav-desktop .menu-desktop{
 	line-height: 80px;
+	background-color: transparent;
 }
 .menu li a {
 	display: inline-block;
+	line-height: 80px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: white;
+}
+.menu li a:hover{
+	background-color: rgba(255,255,255,0.1);
 }
 
+/***************************************************
+MEDIA QUERIES
+****************************************************/
+@media(max-width: 640px){
+	.menu-desktop{
+		display: none;
+	}
+
+}
 
 
 
