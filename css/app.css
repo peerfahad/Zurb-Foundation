@@ -1,6 +1,14 @@
 /***************************************************
 Navigation
 ****************************************************/
+.nav-desktop{
+	background-color: #222;
+	height: 80px;
+	padding: 0px;
+}
+.site-logo{
+	color: white;
+}
 
 /***************************************************
 General
@@ -9,6 +17,12 @@ General
 	width: 90%;
 	max-width: 1100px;
 	margin: 0px auto;
+}
+.nav-desktop .menu-desktop{
+	line-height: 80px;
+}
+.menu li a {
+	display: inline-block;
 }
 
 
