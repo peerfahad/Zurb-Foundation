@@ -51,7 +51,9 @@ MEDIA QUERIES
 Hero
 ****************************************************/
 .hero{
-	background-color:#999;
+	background-image: url('../img/zig-zag.png');
+	/*background-color:#999;*/
+	color: white;
 	padding: 50px 30px 30px 40px; 
 }
 .button.success{
