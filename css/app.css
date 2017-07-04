@@ -59,7 +59,9 @@ Hero
 .button.success{
 	background-color: purple;
 }
-
+.hero p{
+	max-width: 70%;
+}
 /***************************************************
 Main Section
 ****************************************************/
